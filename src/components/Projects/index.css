@@ -1,0 +1,110 @@
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.projects {
+    margin: 0px;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0;
+    list-style: none;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 80%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.project-card.reverse {
+    flex-direction: row-reverse;
+}
+
+.project-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+}
+
+.project-details h1 {
+    color: #258cdb;
+    font-size: 1.7rem;
+}
+
+.project-details a {
+    text-decoration: none;
+}
+
+.languages {
+    display: flex;
+    justify-content: space-between;
+}
+
+.languages img {
+    height: 27px;
+    margin-right: 12px;
+}
+
+.project-img img {
+    height: 250px;
+    width: 400px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+.projects-container .projects-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.projects-container .project-card {
+    margin-bottom: 3px;
+}
+
+.project-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.github-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    gap: 7px;
+    margin-top: 10px;
+    color: white;
+    background-color: #258cdb;
+    padding: 6px 13px 6px 13px;
+    border-radius: 7px;
+}
+  
+.demo-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    gap: 7px;
+    margin-top: 10px;
+    color: white;
+    border: 1.7px solid #258cdb;
+    padding: 6px 13px 6px 13px;
+    border-radius: 7px;
+}
