@@ -19,8 +19,8 @@ const projects = [
         imgSrc: '/svg/portfolio.png',
         languages: ['/svg/react.svg', '/svg/javascript.svg','/svg/css.svg'],
         description: 'Designed and developed a responsive personal portfolio website using React.js and CSS to showcase my skills, projects, and contact information. Implemented smooth navigation, dynamic components, and modern UI design to enhance user experience. Utilized React state management for interactive elements and ensured mobile responsiveness for seamless access across devices.',
-        githubLink: 'https://github.com/jagadeesh056/Jobby-App',
-        demoLink: 'https://jobbysapps.ccbp.tech/login',
+        githubLink: 'https://github.com/jagadeesh056/Personal-Portfolio',
+        demoLink: 'https://personal-portfolio-six-beta-57.vercel.app/',
     },
     {
         uniqueId: 3,
@@ -74,7 +74,8 @@ const Projects = () => {
                                                 rel="noreferrer"
                                                 className="github-link"
                                             >
-                                                <BiLinkExternal />Github                                        </a>
+                                               <FaGithub />Github
+                                            </a>
                                         )}
                                         {project.demoLink && (
                                             <a
@@ -83,7 +84,7 @@ const Projects = () => {
                                                 rel="noreferrer"
                                                 className="demo-link"
                                             >
-                                                <FaGithub />Demo
+                                                <BiLinkExternal />Demo
                                             </a>
                                         )}
                                     </div>
