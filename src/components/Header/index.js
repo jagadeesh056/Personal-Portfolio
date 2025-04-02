@@ -3,7 +3,7 @@ import './index.css';
 const Header = () => (
     <header className="header">
       <div className="header-content">
-        <div className="logo">.dev</div>
+        <div className="logo">Js.dev</div>
         <nav className="nav">
           <ul className='nav-list'>
             <li><a href="#home">Home</a></li>
